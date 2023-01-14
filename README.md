@@ -1,3 +1,3 @@
-Pushes a text to my phone # every morning that describes the weather. Uses free weather API and GPT3, and hosted on AWS Lambda using AWS EventBridge to trigger at 8 am.
+Gets weather from free API, feeds through OpenAI GPT3, then texts my phone a summary of the weather forecast every morning at 8 am via Twilio. Running on AWS Lambda and triggered by AWS EventBridge.
 
 To zip: `zip -r dailyweather.zip * `
